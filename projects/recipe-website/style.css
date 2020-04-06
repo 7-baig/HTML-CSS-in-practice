@@ -1,0 +1,32 @@
+* {
+    font-family: Helvetica;
+}
+h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    /* background-color: rgb(255, 210, 217); */
+    background-color: pink;
+}
+img {
+    height: 150px;
+    cursor: pointer;
+}
+img:hover {
+    height: 250px;
+}
+.description {
+    font-size: 20px;
+}
+#cook-time {
+    font-weight: bold;
+}
+.ingredients li {
+    list-style: square;
+}
+.time {
+    color: rgb(61, 61, 61);
+}
+.external-link {
+    color: seagreen;
+}

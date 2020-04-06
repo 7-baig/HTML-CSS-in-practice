@@ -1,0 +1,41 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+}
+.header {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 25px 0px 1px 0px;
+}
+img {
+    height: 400px;
+}
+.about-me {
+    font-size: 20px;
+    opacity:60%;
+}
+.title {
+    font-weight: bold;
+}
+h1 {
+    color: azure;
+}
+h2 {
+    font-size: 2em;
+}
+h2, .title {
+    margin-left: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact {
+    margin-left: 10px;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h6 {
+    margin-left: 10px;
+}

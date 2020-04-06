@@ -1,0 +1,35 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+header h1 {
+    background-image: url(/images/img4.jpeg);
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+}
+#frames {
+    background-color: lightcoral;
+}
+#paint {
+    background-color: skyblue;
+}
+h3 {
+    font-family: helvetica;
+}
+p {
+    font-family: sans-serif;
+}
+span {
+    font-family: helvetica;
+    font-weight: bold;
+    color: blue;
+}
