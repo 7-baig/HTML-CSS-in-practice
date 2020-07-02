@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container1">
+        <header><h1>heading</h1><button id="navButton">click</button></header>
+        <main></main>
+        <nav id="navi">
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>blog</li>
+                <li>contact</li>
+                <li>services</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="container2"></div>
+    <div id="container3"></div>
+
+
+    <script>
+        const btn = document.querySelector('#navButton');
+        const navBar = document.querySelector('#navi')
+        navBar.style.display === 'none'
+        btn.onclick = () => {
+            if(navBar.style.display === 'none') {
+                navBar.style.display === 'block'
+            }
+        }
+    </script>
+</body>
+</html>
